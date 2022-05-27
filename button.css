@@ -1,0 +1,198 @@
+button {
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 4px 8px;
+    opacity: 1;
+    padding: 12px 24px;
+}
+
+button.small {
+    border-radius: 2px;
+    font-size: 12px;
+    padding: 8px 16px;
+}
+
+button.medium {
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+button.large {
+    border-radius: 6px;
+    font-size: 32px;
+    padding: 24px 48px;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+button.main {
+    background-color: var(--main);
+    border: 2px solid var(--main);
+    color: black;
+}
+
+button.blue,
+button.link {
+    background-color: var(--blue);
+    border: 2px solid var(--blue);
+}
+
+button.green,
+button.success {
+    background-color: var(--green);
+    border: 2px solid var(--green);
+}
+
+button.red,
+button.danger {
+    background-color: var(--red);
+    border: 2px solid var(--red);
+}
+
+button.yellow,
+button.warning {
+    background-color: var(--yellow);
+    border: 2px solid var(--yellow);
+}
+
+button.outlined {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+
+button.outlined:hover {
+    background-color: black;
+    color: white;
+}
+
+button.outlined.blue,
+button.outlined.link {
+    background-color: white;
+    border: 2px solid var(--blue);
+    color: var(--blue);
+}
+
+button.outlined.blue:hover,
+button.outlined.link:hover {
+    background-color: var(--blue);
+    color: white;
+}
+
+button.outlined.green,
+button.outlined.success {
+    background-color: white;
+    border: 2px solid var(--green);
+    color: var(--green);
+}
+
+button.outlined.green:hover,
+button.outlined.success:hover {
+    background-color: var(--green);
+    color: white;
+}
+
+button.outlined.red,
+button.outlined.danger {
+    background-color: white;
+    border: 2px solid var(--red);
+    color: var(--red);
+}
+
+button.outlined.red:hover,
+button.outlined.danger:hover {
+    background-color: var(--red);
+    color: white;
+}
+
+button.outlined.yellow,
+button.outlined.warning {
+    background-color: white;
+    border: 2px solid var(--yellow);
+    color: var(--yellow);
+}
+
+button.outlined.yellow:hover,
+button.outlined.warning:hover {
+    background-color: var(--yellow);
+    color: white;
+}
+
+/* 
+button.main {
+    background-color: var(--main);
+    border: 2px solid black;
+    color: black;
+}
+
+button.main:hover {
+    border: 2px solid var(--main);
+    color: white;
+}
+
+button.blue,
+button.link {
+    background-color: var(--blue);
+    border: 2px solid black;
+    color: black;
+}
+
+button.blue:hover,
+button.link:hover {
+    border: 2px solid var(--blue);
+    color: white;
+}
+
+button.green,
+button.success {
+    background-color: var(--green);
+    border: 2px solid black;
+    color: black;
+}
+
+button.green:hover,
+button.success:hover,
+button.correct:hover {
+    border: 2px solid var(--green);
+    color: white;
+}
+
+button.red,
+button.danger {
+    background-color: var(--red);
+    border: 2px solid black;
+    color: black;
+}
+
+button.red:hover,
+button.danger:hover {
+    border: 2px solid var(--red);
+    color: white;
+}
+
+button.yellow,
+button.warning {
+    background-color: var(--yellow);
+    border: 2px solid black;
+    color: black;
+}
+
+button.yellow:hover,
+button.warning:hover {
+    border: 2px solid var(--yellow);
+    color: white;
+}
+*/
